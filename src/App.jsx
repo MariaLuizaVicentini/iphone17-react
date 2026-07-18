@@ -1,11 +1,16 @@
 import { useState } from 'react'
 import '../src/index.css'
 import './App.css'
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
-    <p className='bg-red-800'>Gurizin na baia</p>
+    <div>
+      <NavBar/>
+      <Hero/>
+    </div>
   )
 }
 
