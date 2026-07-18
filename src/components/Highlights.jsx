@@ -39,17 +39,17 @@ function Highlights(){
                     <h3 className="text-4xl font-bold mb-10">Sistema de camera pro avancado</h3>
 
                     <div className="grid grid-cols-3 gap-6">
-                        <div className="bg-gray-900 rounded-2xl p-8">
+                        <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105">
                             <div className="text-4xl font-bold text-blue-600 mb-4">48MP</div>
                             <h4 className="textxl font-semibold mb-2">Principal</h4>
                             <p className="text-gray-400">Sensor quad-pixel com foco automatico</p>
                         </div>
-                        <div className="bg-gray-900 rounded-2xl p-8">
+                        <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105">
                             <div className="text-4xl font-bold text-orange-600 mb-4">12MP</div>
                             <h4 className="textxl font-semibold mb-2">Ultra wide</h4>
                             <p className="text-gray-400">Campo de visao de 120 com modo noturno</p>
                         </div>
-                        <div className="bg-gray-900 rounded-2xl p-8">
+                        <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105">
                             <div className="text-4xl font-bold text-blue-600 mb-4">12MP</div>
                             <h4 className="textxl font-semibold mb-2">Principal</h4>
                             <p className="text-gray-400">zoom optico de 5x com estabilizacao</p>
