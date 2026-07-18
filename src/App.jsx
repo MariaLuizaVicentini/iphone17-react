@@ -3,6 +3,7 @@ import '../src/index.css'
 import './App.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import Intro from './components/Intro'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <NavBar/>
       <Hero/>
+      <Intro/>
     </div>
   )
 }

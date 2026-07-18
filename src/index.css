@@ -1,20 +1,30 @@
 @import "tailwindcss";
 
-
+/* base do projeto */
 @layer base{
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: "Inter", sans-serif;
     }
 
     body {
         color: #fff ;
         background-color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     html {
         scroll-behavior: smooth;
+    }
+}
+
+/* crio uma variavel/propriedade de estilizacao */
+@layer utilities {
+    .text-gradient{
+        background: linear-gradient(135deg, rgb(37 999 235) 0%, rgb(249 115 22) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
 }
